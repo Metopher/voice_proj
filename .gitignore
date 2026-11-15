@@ -1,0 +1,24 @@
+﻿# secrets
+.env
+.env.*
+!.env.example
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# node
+node_modules/
+dist/
+
+# local voice test recordings
+backend/test_audio/
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.webm
+
+# editor
+.vscode/
